@@ -1,0 +1,12 @@
+PUT _template/kpi_template
+{
+  "index_patterns": ["kpis-data-*"],
+  "settings": {},
+  "mappings": {
+    "properties": {
+      "location": {
+        "type": "geo_point"
+      }
+    }
+  }
+}

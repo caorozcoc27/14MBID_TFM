@@ -1,0 +1,6 @@
+http.host: "0.0.0.0"
+path.data: /opt/logstash/data/exec
+xpack.monitoring.elasticsearch.hosts: [ "https://elasticsearch-master:9200" ]
+xpack.monitoring.elasticsearch.ssl.verification_mode: none
+xpack.monitoring.elasticsearch.username: "elastic"
+xpack.monitoring.elasticsearch.password: "pcKt4SGMM88owSba"
